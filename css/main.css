@@ -13,17 +13,27 @@ body{
     padding: 1.6rem;
 }
 
+*:focus {
+    outline: none;
+}
+
+summary::-webkit-details-marker{
+    display: none;
+}
+
 p{
+    cursor: pointer;
+
     margin-top: 0;
     /* color: #E84545; */
-    /* font-weight: 900; */
+    font-weight: 700;
     letter-spacing: 0.1rem;
 
-    border: 0.1rem solid rgba(255, 255, 255, 0.05);
+    border: 0.1rem solid #E84545;
     border-radius: 0.5rem;
     padding: 1.5rem;
 
-    background-color: #53354A;
+    /* background-color:#E84545; */
 }
 
 ul{
@@ -37,7 +47,7 @@ ul li{
 }
 
 a{
-    padding-left: 2.6rem;
+    padding-left: 3rem;
     color: white;
     text-decoration: none;
 }
