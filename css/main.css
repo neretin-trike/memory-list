@@ -5,13 +5,16 @@ html{
 body{
     font-family: 'Roboto';
     background-color: #1a1c30;
-    color: white;
-    /* white-space: pre; */
-
+    color: #f0f0f0;
     font-size: 1.4rem;
-
     padding: 1.6rem;
+
+    overflow-y: scroll;
+
+    max-width: 90rem;
+    margin: 0 auto;
 }
+
 
 *:focus {
     outline: none;
@@ -23,31 +26,39 @@ summary::-webkit-details-marker{
 
 p{
     cursor: pointer;
-
     margin-top: 0;
-    /* color: #E84545; */
     font-weight: 700;
     letter-spacing: 0.1rem;
 
     border: 0.1rem solid #E84545;
-    border-radius: 0.5rem;
     padding: 1.5rem;
 
-    /* background-color:#E84545; */
+}
+p:hover{
+    background-color: #E84545;
 }
 
-ul{
-    list-style-type: none;
+details details p{
+    margin-left: 3rem;
+}
+
+ol{
+    list-style-position: inside;
     padding: 0;
     margin: 0;
 }
 
-ul li{
+ol li{
     margin: 1.5rem 0;
+    padding-left: 3rem;
 }
 
+ol li:hover{
+    background-color: #E84545;
+}    
+
 a{
-    padding-left: 3rem;
+    padding-left: 1.5rem;
     color: white;
     text-decoration: none;
 }
