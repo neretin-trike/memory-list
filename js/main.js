@@ -1,4 +1,3 @@
-
 window.SmoothScrollOptions = { 
     keyboardSupport: false 
 } 
