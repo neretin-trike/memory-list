@@ -8,12 +8,8 @@ body{
     background-color: #1a1c30;
     color: #f0f0f0;
     font-size: 1.4rem;
-    padding: 3.6rem;
 
     overflow-y: scroll;
-
-    max-width: 90rem;
-    margin: 0 auto;
 }
 
 *{
@@ -22,6 +18,12 @@ body{
 
 *:focus {
     outline: none;
+}
+
+.wrapper{
+    padding: 3.6rem;
+    max-width: 90rem;
+    margin: 0 auto;
 }
 
 summary::-webkit-details-marker{
@@ -96,10 +98,58 @@ a:hover{
 .special{
     color: white;
     border: 1px solid rgb(159, 69, 232);
-    /* background-color: rgb(159, 69, 232); */
-    /* box-shadow: 0 0 3.5rem rgba(159, 69, 232,0.25); */
 }
-
 .special:hover{
     background-color: rgb(159, 69, 232);
+}
+
+.favorite{
+    color: white;
+    border: 1px solid rgb(232, 199, 69);
+}
+.favorite:hover{
+    color: black;
+    background-color:  rgb(232, 199, 69);
+}
+
+.resent{
+    color: white;
+    border: 1px solid rgb(69, 232, 96);
+}
+.resent:hover{
+    color: black;
+    background-color:  rgb(69, 232, 96);
+}
+
+.old{
+    color: white;
+    border: 1px solid rgb(69, 153, 232);
+}
+.old:hover{
+    color: black;
+    background-color:  rgb(69, 153, 232);
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: #141626;
+    height: 11rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5rem;
+    
+}
+
+footer a{
+    display: block;
+    padding-top: 1rem; 
+}
+
+footer .octicon{
+    padding-top: 1.5rem; 
+    display: block;
+    margin: 0 auto;
+    width: 5rem;
+    height: 5rem;
 }
