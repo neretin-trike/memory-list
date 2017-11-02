@@ -10,6 +10,10 @@ body{
     font-size: 1.4rem;
 
     overflow-y: scroll;
+
+    min-height: 100%;
+    position:relative; 
+    padding-bottom: 11rem;
 }
 
 *{
@@ -80,6 +84,7 @@ ol{
 ol li{
     margin: 1.5rem 0;
     padding-left: 4rem;
+    line-height: 1.8;
 }
 
 details details ol li{
@@ -131,14 +136,12 @@ a:hover{
 }
 
 footer{
-    position: relative;
-    bottom: 0;
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
     background-color: #141626;
     height: 11rem;
     width: 100%;
     text-align: center;
-    margin-top: 1.5rem;
-    
 }
 
 footer a{
