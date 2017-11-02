@@ -28,12 +28,8 @@ summary::-webkit-details-marker{
     display: none;
 }
 
-p:before{
-    display: inline-block;
-    content: "|";
-    color: #E84545;
-    padding-right: 1.5rem;
-    transform: rotate(15deg);
+details[open] > summary > p:before{
+    transform: rotate(-90deg);
 }
 
 p{
@@ -47,15 +43,30 @@ p{
     padding: 1.5rem;
 }
 
-p:hover:after{
-    transform: rotate(-15deg);
-    /* background-color: #E84545; */
-    /* background-image: linear-gradient(to right, #E84545, rgb(232, 69, 104)); */
-    
+p:before{
+    display: inline-block;
+    content: "|";
+    color: rgb(231, 68, 68);
+    margin-right: 1.5rem;
+
+    transform-origin: 10% center;
+    transform: rotate(15deg);
+
+    transition: transform 0.15s ease; 
+}
+
+p:hover{
+    color: rgb(231, 68, 68);
+}
+
+p:hover:before{
+    /* box-shadow: 0 0 1.5rem rgba(231, 68, 68,0.25); */
 }
 
 details details p{
     margin-left: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 ol{
@@ -66,12 +77,12 @@ ol{
 
 ol li{
     margin: 1.5rem 0;
-    padding-left: 3rem;
+    padding-left: 4rem;
 }
 
-ol li:hover{
-    /* background-color: #E84545; */
-}    
+details details ol li{
+    padding-left: 7rem;
+}
 
 a{
     padding: 0.25rem 1.5rem;
