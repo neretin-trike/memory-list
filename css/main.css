@@ -24,6 +24,26 @@ body{
     outline: none;
 }
 
+nav div{
+    float: left;
+    width: 25%;
+    height: 0.2rem;
+    opacity: 0.25;
+}
+
+nav .special-tag{
+    background-color: rgb(159, 69, 232);
+}
+nav .favorite-tag{
+    background-color:  rgb(232, 199, 69);
+}
+nav .resent-tag{
+    background-color:  rgb(69, 232, 96);
+}
+nav .old-tag{
+    background-color:  rgb(69, 153, 232);
+} 
+
 .wrapper{
     padding: 3.6rem;
     max-width: 90rem;
