@@ -1,5 +1,6 @@
 html{
     font-size: 62.25%;
+    height: 100%;
 }
 
 body{
@@ -7,7 +8,7 @@ body{
     background-color: #1a1c30;
     color: #f0f0f0;
     font-size: 1.4rem;
-    padding: 1.6rem;
+    padding: 3.6rem;
 
     overflow-y: scroll;
 
@@ -15,6 +16,9 @@ body{
     margin: 0 auto;
 }
 
+*{
+    transition: all 0.15s ease-out;
+}
 
 *:focus {
     outline: none;
@@ -24,18 +28,30 @@ summary::-webkit-details-marker{
     display: none;
 }
 
+p:before{
+    display: inline-block;
+    content: "|";
+    color: #E84545;
+    padding-right: 1.5rem;
+    transform: rotate(15deg);
+}
+
 p{
     cursor: pointer;
     margin-top: 0;
     font-weight: 700;
     letter-spacing: 0.1rem;
 
-    border: 0.1rem solid #E84545;
+    /* border-bottom: 0.1rem solid #E84545; */
+    
     padding: 1.5rem;
-
 }
-p:hover{
-    background-color: #E84545;
+
+p:hover:after{
+    transform: rotate(-15deg);
+    /* background-color: #E84545; */
+    /* background-image: linear-gradient(to right, #E84545, rgb(232, 69, 104)); */
+    
 }
 
 details details p{
@@ -54,11 +70,25 @@ ol li{
 }
 
 ol li:hover{
-    background-color: #E84545;
+    /* background-color: #E84545; */
 }    
 
 a{
-    padding-left: 1.5rem;
-    color: white;
+    padding: 0.25rem 1.5rem;
+    color: rgba(255,255,255,0.25);
     text-decoration: none;
+}
+a:hover{
+    color: rgba(255,255,255,1);
+}
+
+.special{
+    color: white;
+    border: 1px solid rgb(159, 69, 232);
+    /* background-color: rgb(159, 69, 232); */
+    /* box-shadow: 0 0 3.5rem rgba(159, 69, 232,0.25); */
+}
+
+.special:hover{
+    background-color: rgb(159, 69, 232);
 }
