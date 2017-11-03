@@ -17,7 +17,7 @@ body{
 }
 
 *{
-    transition: all 0.15s ease-out;
+    transition: color 0.15s ease-out;
 }
 
 *:focus {
@@ -54,13 +54,30 @@ summary::-webkit-details-marker{
     display: none;
 }
 
-details[open] > summary > p:before{
+.opened:before{
     transform: rotate(-90deg);
 }
 
+.widget-category{
+}
+
+.widget-links{
+    display: none;
+    overflow: hidden;
+    opacity: 0;
+}
+/* 
+article .widget-category .widget-links{
+    display: none;
+    overflow: visible;
+} */
+
+
 p{
     cursor: pointer;
-    margin-top: 0;
+    margin-top:0;
+    margin-bottom: 0;
+
     font-weight: 700;
     letter-spacing: 0.1rem;
 
