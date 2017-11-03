@@ -96,6 +96,21 @@ p:hover:before{
     /* box-shadow: 0 0 1.5rem rgba(231, 68, 68,0.25); */
 }
 
+h2{
+    display: inline-block;
+    width: 10rem;
+
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: italic;
+    margin-left: 2rem; 
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
+    
+    color: rgba(255,255,255,0.75);
+    border-bottom: 0.1rem solid rgb(231, 68, 68);
+}
+
 .widget-category .widget-category p{
     margin-left: 3rem;
     padding-top: 1rem;
