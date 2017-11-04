@@ -141,9 +141,31 @@ a{
     padding: 0.25rem 1.5rem;
     color: rgba(255,255,255,0.25);
     text-decoration: none;
+    position: relative;
 }
 a:hover{
     color: rgba(255,255,255,1);
+}
+
+.rus:after{
+    content: "rus";
+    position: absolute;
+    padding:0 0.5rem; 
+
+    font-size: 1.1rem;
+    line-height: 1;
+    
+
+    height: 50%;
+    margin: auto;
+    margin-left: 2rem;
+
+    top: 0;  
+    bottom: 0; 
+
+
+    background: rgba(231, 68, 68,0.5);
+    color: white;
 }
 
 .special{

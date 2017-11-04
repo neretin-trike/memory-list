@@ -18,7 +18,7 @@ function GetListLinks(json, root){
                 val = json[k]["list"][i+1];
                 tag = json[k]["list"][i+2];
 
-                items.push('<li><a class="'+ tag +'" href="' + href + '">' + val + '</a></li>');
+                items.push('<li><a target="_blank" class="'+ tag +'" href="' + href + '">' + val + '</a></li>');
             }
 
             var sectionElem = $("<section class='widget-category'></section>");
