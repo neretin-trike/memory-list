@@ -21,7 +21,7 @@ window.onload = function() {
         }
 
         var sec = $("<section class='widget-category'></section>");
-        var ps = $("<p class='opened'>ШПАРГАЛКИ</p>");
+        var ps = $("<p>ШПАРГАЛКИ</p>");
         var art = $("<article class='widget-links'>");  
         var ols = $('<ol/>', {html: items.join('')});
 
@@ -29,20 +29,11 @@ window.onload = function() {
         $(art).append(ols);
 
         $('.wrapper').append(sec); 
-
-        // json.forEach(function(el) {
-        //     items.push('<li>' + el + '</li>');
-        // }, this);
-
-        // $.each(json, function(key, val) {
-        //   items.push('<li id="' + key + '">' + val + '</li>');
-        // });
-
     });
 };
 
-$("p").click(function() {
-    
+$(".wrapper").on('click','p', function(){
+
     var widgetLinks = $(this).parent().children(".widget-links");
     var beginHeight = widgetLinks.css("height");
 
