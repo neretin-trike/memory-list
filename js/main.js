@@ -13,11 +13,12 @@ function GetListLinks(json, root){
 
             caption = json[k]["caption"];
             
-            for (var i = 0; i<json[k]["list"].length-1; i+=2){
+            for (var i = 0; i<json[k]["list"].length-1; i+=3){
                 href = json[k]["list"][i];
                 val = json[k]["list"][i+1];
+                tag = json[k]["list"][i+2];
 
-                items.push('<li><a href="' + href + '">' + val + '</a></li>');
+                items.push('<li><a class="'+ tag +'" href="' + href + '">' + val + '</a></li>');
             }
 
             var sectionElem = $("<section class='widget-category'></section>");

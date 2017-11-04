@@ -3,21 +3,21 @@
         "level":1,
         "caption":"Шпаргалки",
         "list":[
-            "https://github.com/nicothin/web-design", "О чём должен помнить веб-дизайнер",
-            "http://lynn.ru/examples/svg/", "Трюки с SVG и тегом image",
-            "https://ru.stackoverflow.com/questions/584813/Контроль-версий-на-локальном-компьютере-windows", "Контроль версий на локальном компьютере windows",
-            "https://ru.stackoverflow.com/questions/431520/Как-вернуться-откатиться-к-более-раннему-коммиту", "Как вернуться откатиться к более раннему коммиту",
-            "https://github.com/kamranahmedse/developer-roadmap", "Web developer roadmap",
-            "https://github.com/acilsd/wrk-fet", "I can has frontend skillz: fat FAQ",
-            "https://github.com/tsergeytovarov/htmlacademy-basic-additional-material", "Дополнительные материалы для интенсивов",
-            "http://css-live.ru/wp-content/uploads/2012/07/html5-flowchart-ru.png", "Выбор элемента HTML5",
-            "https://superuser.com/questions/454380/git-bash-here-in-conemu", "Git Bash Here in ConEmu",
-            "https://rsdn.org/article/tools/Git.xml#E5D", "Git в картинках",
-            "http://eax.me/git-commands/", "Моя шпаргалка по работе с Git",
-            "http://mediasapiens.tv/files/2012/04/font.png", "Итак, тебе нужен шрифт",
-            "http://odeskconf.github.io/guide/", "Гайд по работе на Апворке",
-            "http://html5please.com/", "html5please",
-            "http://easings.net/ru", "easings"
+            "https://github.com/nicothin/web-design", "О чём должен помнить веб-дизайнер","favorite",
+            "http://lynn.ru/examples/svg/", "Трюки с SVG и тегом image","",
+            "https://ru.stackoverflow.com/questions/584813/Контроль-версий-на-локальном-компьютере-windows", "Контроль версий на локальном компьютере windows","",
+            "https://ru.stackoverflow.com/questions/431520/Как-вернуться-откатиться-к-более-раннему-коммиту", "Как вернуться откатиться к более раннему коммиту","",
+            "https://github.com/kamranahmedse/developer-roadmap", "Web developer roadmap","",
+            "https://github.com/acilsd/wrk-fet", "I can has frontend skillz: fat FAQ","",
+            "https://github.com/tsergeytovarov/htmlacademy-basic-additional-material", "Дополнительные материалы для интенсивов","",
+            "http://css-live.ru/wp-content/uploads/2012/07/html5-flowchart-ru.png", "Выбор элемента HTML5","",
+            "https://superuser.com/questions/454380/git-bash-here-in-conemu", "Git Bash Here in ConEmu","",
+            "https://rsdn.org/article/tools/Git.xml#E5D", "Git в картинках","",
+            "http://eax.me/git-commands/", "Моя шпаргалка по работе с Git","",
+            "http://mediasapiens.tv/files/2012/04/font.png", "Итак, тебе нужен шрифт","",
+            "http://odeskconf.github.io/guide/", "Гайд по работе на Апворке","",
+            "http://html5please.com/", "html5please","",
+            "http://easings.net/ru", "easings",""
         ]
     },
     "resourses":{
@@ -28,91 +28,91 @@
             "level":2,
             "caption":"Макеты",
             "list":[
-                "https://html5up.net/","html5up",
-                "https://uispace.net/","uispace",
-                "http://freebbble.com/","freebbble",
-                "http://psd-html-css.ru/","psd-html-css",
-                "https://freebiesbug.com/","freebiesbug",
-                "http://www.freebiesgallery.com/","freebiesgallery",
-                "https://www.designcrawl.com/","designcrawl",
-                "https://www.graphicpear.com/","graphicpear"
+                "https://html5up.net/","html5up","",
+                "https://uispace.net/","uispace","",
+                "http://freebbble.com/","freebbble","",
+                "http://psd-html-css.ru/","psd-html-css","",
+                "https://freebiesbug.com/","freebiesbug","",
+                "http://www.freebiesgallery.com/","freebiesgallery","",
+                "https://www.designcrawl.com/","designcrawl","",
+                "https://www.graphicpear.com/","graphicpear",""
             ]
         },
         "photostocks":{
             "level":2,
             "caption":"Фотостоки",
             "list":[
-                "https://unsplash.com/","unsplash",
-                "https://picjumbo.com/","picjumbo",
-                "https://gratisography.com/","gratisography",
-                "http://littlevisuals.co/","littlevisuals",
-                "https://www.splitshire.com/","splitshire",
-                "https://pixabay.com/","pixabay",
-                "http://imcreator.com/free","imcreator",
-                "http://wefunction.com/category/free-photos/","wefunction",
-                "http://nos.twnsnd.co/","nos.twnsnd",
-                "https://everypixel.com/","everypixel",
-                "http://jaymantri.com/","jaymantri",
-                "https://picography.co/","picography",
-                "http://travelcoffeebook.com/","travelcoffeebook",
-                "http://www.designerspics.com/","designerspics",
-                "http://www.lifeofpix.com/","lifeofpix",
-                "https://isorepublic.com/","isorepublic",
-                "http://cupcake.nilssonlee.se/","cupcake.nilssonlee",
-                "http://stokpic.com/","stokpic",
-                "http://publicdomainarchive.com/","publicdomainarchive",
-                "http://getrefe.tumblr.com/","getrefe.tumblr",
-                "https://www.pexels.com/","pexels",
-                "https://www.vecteezy.com/","vecteezy"
+                "https://unsplash.com/","unsplash","",
+                "https://picjumbo.com/","picjumbo","",
+                "https://gratisography.com/","gratisography","",
+                "http://littlevisuals.co/","littlevisuals","",
+                "https://www.splitshire.com/","splitshire","",
+                "https://pixabay.com/","pixabay","",
+                "http://imcreator.com/free","imcreator","",
+                "http://wefunction.com/category/free-photos/","wefunction","",
+                "http://nos.twnsnd.co/","nos.twnsnd","",
+                "https://everypixel.com/","everypixel","",
+                "http://jaymantri.com/","jaymantri","",
+                "https://picography.co/","picography","",
+                "http://travelcoffeebook.com/","travelcoffeebook","",
+                "http://www.designerspics.com/","designerspics","",
+                "http://www.lifeofpix.com/","lifeofpix","",
+                "https://isorepublic.com/","isorepublic","",
+                "http://cupcake.nilssonlee.se/","cupcake.nilssonlee","",
+                "http://stokpic.com/","stokpic","",
+                "http://publicdomainarchive.com/","publicdomainarchive","",
+                "http://getrefe.tumblr.com/","getrefe.tumblr","",
+                "https://www.pexels.com/","pexels","",
+                "https://www.vecteezy.com/","vecteezy",""
             ]
         },
         "icons":{
             "level":2,
             "caption":"Иконки",
             "list":[
-                "https://www.flaticon.com/","flaticon",
-                "https://thenounproject.com/","thenounproject",
-                "https://iconmonstr.com/collections/","iconmonstr",
-                "http://www.endlessicons.com/","endlessicons",
-                "https://othericons.com/","othericons",
-                "https://www.iconfinder.com/","iconfinder",
-                "http://flaticons.net/","flaticons",
-                "https://www.icondeposit.com/theicondeposit:_start","icondeposit"
+                "https://www.flaticon.com/","flaticon","",
+                "https://thenounproject.com/","thenounproject","",
+                "https://iconmonstr.com/collections/","iconmonstr","",
+                "http://www.endlessicons.com/","endlessicons","",
+                "https://othericons.com/","othericons","",
+                "https://www.iconfinder.com/","iconfinder","",
+                "http://flaticons.net/","flaticons","",
+                "https://www.icondeposit.com/theicondeposit:_start","icondeposit",""
             ]
         },
         "fonts":{
             "level":2,
             "caption":"Шрифты",
             "list":[
-                "https://icons8.ru/","icons8",
-                "https://fontstorage.com/ru/","fontstorage",
-                "https://fonts.google.com/","fonts.google",
-                "https://www.fontsquirrel.com/","fontsquirrel",
-                "https://www.typewolf.com/","typewolf",
-                "http://www.losttype.com/","losttype",
-                "http://okaytype.com/","okaytype",
-                "http://typekit.com/","typekit",
-                "http://www.myfonts.com/","myfonts",
-                "https://www.fonts.com/","fonts",
-                "https://www.dafont.com/","dafont"                
+                "https://icons8.ru/","icons8","",
+                "https://fontstorage.com/ru/","fontstorage","",
+                "https://fonts.google.com/","fonts.google","",
+                "https://www.fontsquirrel.com/","fontsquirrel","",
+                "https://www.typewolf.com/","typewolf","",
+                "http://www.losttype.com/","losttype","",
+                "http://okaytype.com/","okaytype","",
+                "http://typekit.com/","typekit","",
+                "http://www.myfonts.com/","myfonts","",
+                "https://www.fonts.com/","fonts","",
+                "https://www.dafont.com/","dafont",""
             ]
         },
         "frameworks":{
             "level":2,
             "caption":"Библиотеки",
             "list":[
-                "https://cdnjs.com/","cdnjs",
-                "https://foundation.zurb.com/","foundation.zurb",
-                "http://bootstrap-3.ru/","bootstrap 3",
-                "https://daneden.github.io/animate.css/","animate.css",
-                "http://fontawesome.io/","fontawesome"
+                "https://cdnjs.com/","cdnjs","",
+                "https://foundation.zurb.com/","foundation.zurb","",
+                "http://bootstrap-3.ru/","bootstrap 3","",
+                "https://daneden.github.io/animate.css/","animate.css","",
+                "http://fontawesome.io/","fontawesome",""
             ]
         },
         "mockups":{
             "level":2,
             "caption":"Мокапы",
             "list":[
-                "https://placeit.net/","placeit"
+                "https://placeit.net/","placeit",""
             ]
         }
     }
