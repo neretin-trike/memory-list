@@ -1,0 +1,278 @@
+{
+    "CoursesAndPractice":{
+        "level":1,
+        "caption":"Курсы и практика",
+        "list":[
+           "https://htmlacademy.ru/","htmlacademy","",
+           "https://stepik.org/catalog","stepik","",
+           "https://codebra.ru/","codebra","",
+           "http://theory.phphtml.net/tasks/","theory.phphtml","",
+           "http://www.quizfol.net/test","quizfol","",
+           "https://www.codeschool.com/","codeschool","",
+           "https://www.freecodecamp.org","freecodecamp","",
+           "https://www.codecademy.com/","codecademy","",
+           "https://www.codecademy.com/","codecademy",""
+        ]
+    },
+    "ManualsAndSpecifications":{
+        "level":1,
+        "caption":"Справочники и спецификации",
+        "list":[
+           "https://ru.bem.info/methodology/","methodology","",
+           "https://developer.mozilla.org/ru/","MDN","",
+           "https://www.w3schools.com/","w3schools","",
+           "https://webref.ru/","webref","",
+           "https://web-standards.ru/tag/html5doctor/","web-standards","",
+           "http://ruschema.org/","ruschema","",
+           "http://microformats.org/wiki/Main_Page-ru","microformats","",
+           "http://css3.bradshawenterprises.com/","bradshawenterprises","",
+           "http://spec.piraruco.com/html5/index.htm","spec.piraruco","",
+           "https://webmaster.yandex.ru/tools/microtest/","webmaster.yandex","",
+           "https://docs.emmet.io/","docs.emmet","",
+           "https://www.ibm.com/developerworks/ru/views/web/libraryview.jsp","Техническая библиотека IBM",""
+        ]
+    },
+    "Blogs":{
+        "level":1,
+        "caption":"Блоги",
+        "list":[
+           "https://tproger.ru/","tproger","",
+           "https://proglib.io/","proglib","",
+           "https://csscreator.com/","csscreator","",
+           "https://www.catswhocode.com/blog/","catswhocode","",
+           "https://www.sitepoint.com/","sitepoint","",
+           "https://code.tutsplus.com/","code.tutsplus","",
+           "https://www.smashingmagazine.com/","smashingmagazine","",
+           "https://pepelsbey.net/2008/04/semantic-coding-1/","pepelsbey","",
+           "http://css-live.ru/","css-live","",
+           "https://css-tricks.com/","css-tricks","",
+           "http://webdesign-master.ru","webdesign-master","",
+           "http://html5.by/blog/scroll-effects/","html5","",
+           "https://html5book.ru/","html5book","",
+           "http://xahlee.info/comp/comp_lang_tutorials_index.html","xahlee","",
+           "https://tympanus.net/codrops/","tympanus","",
+           "https://canonium.com/articles/compilation-books-for-web-developers","canonium","",
+           "http://bayguzin.ru/main/skriptyi.html","bayguzin","",
+           "https://www.minimamente.com/","minimamente","",
+           "https://codyhouse.co/","codyhouse",""
+        ]
+    },
+    "Articles":{
+        "level":1,
+        "caption":"Статьи",
+        "list":[
+           "https://habrahabr.ru/post/214407/","Как использовать секционные элементы HTML5","",
+           "https://habrahabr.ru/company/yandex/blog/221881/","Сложный и противоречивый мир синтаксиса микроразметки.","",
+           "https://habrahabr.ru/post/112530/","Обфускация JavaScript","",
+           "https://habrahabr.ru/post/175747/","Прощай, Zen Coding. Привет, Emmet!","",
+           "https://toster.ru/q/457583","Какой код начать писать на JS?","",
+           "https://learntocodewith.me/web-dev/front-end-developer-skills/","DO YOU HAVE WHAT IT TAKES TO BE A FRONT END DEVELOPER?","",
+           "https://habrahabr.ru/post/256109/","Способы организации CSS-кода","",
+           "https://habrahabr.ru/company/mailru/blog/267595","19 советов по повседневной работе с Git","",
+           "https://habrahabr.ru/post/157175/","Машина времени в git","",
+           "https://habrahabr.ru/post/106912/","Удачная модель ветвления для Git","",
+           "https://habrahabr.ru/post/323234/","Безболезненное разрешение Merge конфликтов в Git","",
+           "https://habrahabr.ru/company/Voximplant/blog/276695/","Как оформлять коммиты, чтобы потом не было больно","",
+           "https://toster.ru/q/213555","Как вы начинаете вёрстку сайта?",""
+        ]
+    },
+    "Services":{
+        "level":1,
+        "caption":"Сервисы",
+        "list":[
+           "https://search.google.com/structured-data/testing-tool/u/0/?hl=ru","google testing-tool","",
+           "https://gsnedders.html5.org/outliner/","gsnedders.html5","",
+           "https://codepen.io/","codepen","",
+           "https://caniuse.com","caniuse","",
+           "https://coolors.co/app/341f36-95afba-bdc4a7-d5e1a3-e2f89c","coolors","",
+           "http://www.colinkeany.com/blend/","colinkeany","",
+           "https://uigradients.com/#Starfall","uigradients","",
+           "http://btmills.github.io/geopattern/geopattern.html","btmills.github.io","",
+           "http://alssndro.github.io/trianglify-background-generator/","alssndro.github.io","",
+           "https://wireframe.cc/","wireframe","",
+           "http://screensiz.es/","screensiz","",
+           "https://designmodo.com/responsive-test/","responsive-test","",
+           "http://cubic-bezier.com/#.17,.67,.83,.67","cubic-bezier","",
+           "http://www.jpegmini.com/","jpegmini","",
+           "https://snazzymaps.com/","snazzymaps","",
+           "http://shapecatcher.com/","shapecatcher","",
+           "https://fontstruct.com/","fontstruct","",
+           "http://app.fontflame.com/","app.fontflame","",
+           "https://www.draw.io/","draw","",
+           "http://labs.tineye.com/","tineye","",
+           "https://www.materialui.co/colors","materialui",""
+        ]
+    },
+    "inspiration":{
+        "level":1,
+        "caption":"Вдохновение",
+        "list":[
+           "https://onepagelove.com/","onepagelove","",
+           "https://www.designspiration.net/","designspiration","",
+           "https://muz.li/","muz","",
+           "http://thebestdesigns.com/","thebestdesigns","",
+           "https://land-book.com/","land-book","",
+           "https://www.siteinspire.com/","siteinspire","",
+           "http://www.colourlovers.com/","colourlovers","",
+           "http://navnav.co/","navnav","",
+           "http://cssline.com/","cssline","",
+           "http://awwwards.com/","awwwards","",
+           "https://cssdesignawards.com/","cssdesignawards","",
+           "http://www.csswinner.com/winners","csswinner","",
+           "https://ui8.net/","ui8","",
+           "http://gradients.io/","gradients.io","",
+           "http://colorhunt.co/","colorhunt","",
+           "http://beloweb.ru/","beloweb","",
+           "https://www.behance.net/","behance","",
+           "https://dribbble.com/","dribbble","",
+           "https://niice.co/","niice","",
+           "http://usepanda.com","usepanda","",
+           "https://www.buamai.com/","buamai","",
+           "http://www.packagingoftheworld.com/","packagingoftheworld","",
+           "http://collectui.com/challenges/mobile-menu","collectui","",
+           "https://uimovement.com/?page=8","uimovement","",
+           "http://theinspirationgrid.com","theinspirationgrid","",
+           "http://abduzeedo.com/index.php/collections","abduzeedo","",
+           "https://www.behance.net/gallery/47810259/2017-Design-Trends-Guide","2017-Design-Trends-Guide",""
+        ]
+    },
+    "videoLessonsPodacsts":{
+        "level":1,
+        "caption":"Видео, уроки и подкасты",
+        "list":[
+            "https://monsterlessons.com/","monsterlessons","",
+            "http://nicothin.github.io/idiomatic-pre-CSS/","Как работать с CSS-препроцессорами и БЭМ","",
+            "https://githowto.com/ru","Курс обучения Git на русском","",
+            "https://github.com/andrew--r/channels","YouTube (mostly, but not only) channels for frontend developers","",
+            "https://radiojs.ru/","radiojs",""
+        ]
+    },
+    "appAndInstruments":{
+        "level":1,
+        "caption":"Приложения и инструменты",
+        "list":[
+            "https://framer.com/","avocode","",
+            "https://avocode.com/","avocode","",
+            "https://axure.com","axure","",
+            "http://principleformac.com/","principleformac","",
+            "https://webflow.com/","webflow",""
+        ]
+    },
+    "sheetList":{
+        "level":1,
+        "caption":"Шпаргалки",
+        "list":[
+            "https://github.com/nicothin/web-design", "О чём должен помнить веб-дизайнер","favorite rus",
+            "http://lynn.ru/examples/svg/", "Трюки с SVG и тегом image","",
+            "https://ru.stackoverflow.com/questions/584813/Контроль-версий-на-локальном-компьютере-windows", "Контроль версий на локальном компьютере windows","",
+            "https://ru.stackoverflow.com/questions/431520/Как-вернуться-откатиться-к-более-раннему-коммиту", "Как вернуться откатиться к более раннему коммиту","",
+            "https://github.com/kamranahmedse/developer-roadmap", "Web developer roadmap","",
+            "https://github.com/acilsd/wrk-fet", "I can has frontend skillz: fat FAQ","",
+            "https://github.com/tsergeytovarov/htmlacademy-basic-additional-material", "Дополнительные материалы для интенсивов","",
+            "http://css-live.ru/wp-content/uploads/2012/07/html5-flowchart-ru.png", "Выбор элемента HTML5","",
+            "https://superuser.com/questions/454380/git-bash-here-in-conemu", "Git Bash Here in ConEmu","",
+            "https://rsdn.org/article/tools/Git.xml#E5D", "Git в картинках","",
+            "http://eax.me/git-commands/", "Моя шпаргалка по работе с Git","",
+            "http://mediasapiens.tv/files/2012/04/font.png", "Итак, тебе нужен шрифт","",
+            "http://odeskconf.github.io/guide/", "Гайд по работе на Апворке","",
+            "http://html5please.com/", "html5please","",
+            "http://easings.net/ru", "easings",""
+        ]
+    },
+    "resourses":{
+        "level":1,
+        "caption":"Ресурсы",
+        "list":[],
+        "makets":{
+            "level":2,
+            "caption":"Макеты",
+            "list":[
+                "https://html5up.net/","html5up","",
+                "https://uispace.net/","uispace","",
+                "http://freebbble.com/","freebbble","",
+                "http://psd-html-css.ru/","psd-html-css","",
+                "https://freebiesbug.com/","freebiesbug","",
+                "http://www.freebiesgallery.com/","freebiesgallery","",
+                "https://www.designcrawl.com/","designcrawl","",
+                "https://www.graphicpear.com/","graphicpear",""
+            ]
+        },
+        "photostocks":{
+            "level":2,
+            "caption":"Фотостоки",
+            "list":[
+                "https://unsplash.com/","unsplash","",
+                "https://picjumbo.com/","picjumbo","",
+                "https://gratisography.com/","gratisography","",
+                "http://littlevisuals.co/","littlevisuals","",
+                "https://www.splitshire.com/","splitshire","",
+                "https://pixabay.com/","pixabay","",
+                "http://imcreator.com/free","imcreator","",
+                "http://wefunction.com/category/free-photos/","wefunction","",
+                "http://nos.twnsnd.co/","nos.twnsnd","",
+                "https://everypixel.com/","everypixel","",
+                "http://jaymantri.com/","jaymantri","",
+                "https://picography.co/","picography","",
+                "http://travelcoffeebook.com/","travelcoffeebook","",
+                "http://www.designerspics.com/","designerspics","",
+                "http://www.lifeofpix.com/","lifeofpix","",
+                "https://isorepublic.com/","isorepublic","",
+                "http://cupcake.nilssonlee.se/","cupcake.nilssonlee","",
+                "http://stokpic.com/","stokpic","",
+                "http://publicdomainarchive.com/","publicdomainarchive","",
+                "http://getrefe.tumblr.com/","getrefe.tumblr","",
+                "https://www.pexels.com/","pexels","",
+                "https://www.vecteezy.com/","vecteezy",""
+            ]
+        },
+        "icons":{
+            "level":2,
+            "caption":"Иконки",
+            "list":[
+                "https://www.flaticon.com/","flaticon","",
+                "https://thenounproject.com/","thenounproject","",
+                "https://iconmonstr.com/collections/","iconmonstr","",
+                "http://www.endlessicons.com/","endlessicons","",
+                "https://othericons.com/","othericons","",
+                "https://www.iconfinder.com/","iconfinder","",
+                "http://flaticons.net/","flaticons","",
+                "https://www.icondeposit.com/theicondeposit:_start","icondeposit",""
+            ]
+        },
+        "fonts":{
+            "level":2,
+            "caption":"Шрифты",
+            "list":[
+                "https://icons8.ru/","icons8","",
+                "https://fontstorage.com/ru/","fontstorage","",
+                "https://fonts.google.com/","fonts.google","",
+                "https://www.fontsquirrel.com/","fontsquirrel","",
+                "https://www.typewolf.com/","typewolf","",
+                "http://www.losttype.com/","losttype","",
+                "http://okaytype.com/","okaytype","",
+                "http://typekit.com/","typekit","",
+                "http://www.myfonts.com/","myfonts","",
+                "https://www.fonts.com/","fonts","",
+                "https://www.dafont.com/","dafont",""
+            ]
+        },
+        "frameworks":{
+            "level":2,
+            "caption":"Библиотеки",
+            "list":[
+                "https://cdnjs.com/","cdnjs","",
+                "https://foundation.zurb.com/","foundation.zurb","",
+                "http://bootstrap-3.ru/","bootstrap 3","",
+                "https://daneden.github.io/animate.css/","animate.css","",
+                "http://fontawesome.io/","fontawesome",""
+            ]
+        },
+        "mockups":{
+            "level":2,
+            "caption":"Мокапы",
+            "list":[
+                "https://placeit.net/","placeit",""
+            ]
+        }
+    }
+}

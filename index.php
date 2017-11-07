@@ -1,7 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> -->
+    <!-- <meta charset="UTF-8"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#1a1c30" />
@@ -13,11 +15,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 </head>
 <body>
+    <script>
+        var arr = [
+            {"name": "Вася", "age": 20},
+            {"name": "Петя", "age": 22},
+            {"name": "Таня", "age": 18}
+            ];
 
+        function CreateNewFile(){
+            $.ajax({
+                url: 'data.php',
+                type: 'POST',
+                data: {myJson: JSON.stringify(arr), fileName: 'js/new_file.json'},
+            });
+        }    
+    </script>
     <div class="wrapper">
-    <?php
-        echo ('hello');
-    ?>
+        <?php
+            echo "<button onclick='CreateNewFile()'>Создать нвоый файл</button>";
+        ?>
     </div>
     <footer>
         <nav>
