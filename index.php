@@ -15,26 +15,64 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+    <script>
+        var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",encode:function(e){var t="";var n,r,i,s,o,u,a;var f=0;e=Base64._utf8_encode(e);while(f<e.length){n=e.charCodeAt(f++);r=e.charCodeAt(f++);i=e.charCodeAt(f++);s=n>>2;o=(n&3)<<4|r>>4;u=(r&15)<<2|i>>6;a=i&63;if(isNaN(r)){u=a=64}else if(isNaN(i)){a=64}t=t+this._keyStr.charAt(s)+this._keyStr.charAt(o)+this._keyStr.charAt(u)+this._keyStr.charAt(a)}return t},decode:function(e){var t="";var n,r,i;var s,o,u,a;var f=0;e=e.replace(/[^A-Za-z0-9+/=]/g,"");while(f<e.length){s=this._keyStr.indexOf(e.charAt(f++));o=this._keyStr.indexOf(e.charAt(f++));u=this._keyStr.indexOf(e.charAt(f++));a=this._keyStr.indexOf(e.charAt(f++));n=s<<2|o>>4;r=(o&15)<<4|u>>2;i=(u&3)<<6|a;t=t+String.fromCharCode(n);if(u!=64){t=t+String.fromCharCode(r)}if(a!=64){t=t+String.fromCharCode(i)}}t=Base64._utf8_decode(t);return t},_utf8_encode:function(e){e=e.replace(/rn/g,"n");var t="";for(var n=0;n<e.length;n++){var r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r)}else if(r>127&&r<2048){t+=String.fromCharCode(r>>6|192);t+=String.fromCharCode(r&63|128)}else{t+=String.fromCharCode(r>>12|224);t+=String.fromCharCode(r>>6&63|128);t+=String.fromCharCode(r&63|128)}}return t},_utf8_decode:function(e){var t="";var n=0;var r=c1=c2=0;while(n<e.length){r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r);n++}else if(r>191&&r<224){c2=e.charCodeAt(n+1);t+=String.fromCharCode((r&31)<<6|c2&63);n+=2}else{c2=e.charCodeAt(n+1);c3=e.charCodeAt(n+2);t+=String.fromCharCode((r&15)<<12|(c2&63)<<6|c3&63);n+=3}}return t}}
+    </script>
 </head>
 <body>
     <script>
 
+        var myStorage = localStorage;
+
+
         function CheckPass(){
-            // Encrypt 
-            // var ciphertext = CryptoJS.AES.encrypt('88fc079801737f85dda005b1e868f4831bed1cad', '002544125');
             // Decrypt 
-            myKey = "U2FsdGVkX19HenNhlOI1zpyz3HYdHOU329ggiBpxViRhnPnkwEr7YaoEvygGBwA04UQktZ4uqYDHqWJSiG2w5Q==";
+            myKey = "U2FsdGVkX19u1EskqGOn+p8MwoGOSYplw/VNKtZdMkbf2l5hOLpOXLhPWGw9EGnZFGJWUeQV4U0dWQAhd3ASKg==";
 
             var bytes  = CryptoJS.AES.decrypt(myKey, pass.value.toString());
             var privateToken = bytes.toString(CryptoJS.enc.Utf8);
 
             if(privateToken!=""){
-                myStorage = localStorage;
                 myStorage.setItem('token', privateToken);
                 console.log(privateToken);
             }
         }    
 
+        var dataJson = "";
+        $.ajax({ 
+        url: 'https://api.github.com/repos/neretin-trike/test_repo1/contents/7.txt',
+        type: 'GET',
+            }).done(function(response) {
+
+            var filecontent = "Ещё одна проверка";
+            var basecontent =  Base64.encode(filecontent);
+
+            var commit = {
+                message: "Мой коммит",
+                commiter:{
+                    name: "neretin-trike",
+                    email: "hawktrike@gmail.com"
+                },
+                content: basecontent,
+                sha: response.sha
+            }
+            dataJson = JSON.stringify(commit);
+
+            UpdateFile();
+        });
+        
+        function UpdateFile(){
+            $.ajax({ 
+            url: 'https://api.github.com/repos/neretin-trike/test_repo1/contents/7.txt',
+            type: 'PUT',
+                beforeSend: function(xhr) { 
+                    xhr.setRequestHeader("Authorization", "token "+ myStorage.token); 
+                },
+                data: dataJson
+                }).done(function(response) {
+            console.log(response);
+            });
+        }
 
         // $.ajax({ 
         //     url: 'https://api.github.com/authorizations',
@@ -47,16 +85,6 @@
         //     console.log(response);
         // });
 
-        // $.ajax({ 
-        // url: 'https://api.github.com/repos/neretin-trike/test_repo1/contents/6.txt',
-        // type: 'PUT',
-        //     beforeSend: function(xhr) { 
-        //         xhr.setRequestHeader("Authorization", "token 6417320fa18bc7bb5f7a7cbaf48ffc527533d1b7"); 
-        //     },
-        //     data: '{ "message": "My commit message", "committer": { "name": "Mike A", "email": "someemail@gmail.com" }, "content": "0J3QtdGD0LbRgtC+INC30LDRgNCw0LHQvtGC0LDQu9C+", "sha":"27c91a075c2efffbf40738200e983825e3e5b6c3"}'
-        //     }).done(function(response) {
-        // console.log(response);
-        // });
 
 
     </script>
