@@ -11,9 +11,9 @@ function CreateLinksList(json, root){
         
         for (var i = 0; i < node["list"].length; i++){
             var linkNode = node["list"][i];
-            href = linkNode["link"];
-            val = linkNode["value"];
-            className = linkNode["className"];
+            var href = linkNode["link"];
+            var val = linkNode["value"];
+            var className = linkNode["className"];
 
             items.push('<li><a target="_blank" class="'+ className +'" href="' + href + '">' + val + '</a></li>');
         }
